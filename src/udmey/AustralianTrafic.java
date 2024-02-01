@@ -1,3 +1,4 @@
+package udmey;
 
 public class AustralianTrafic implements CentralTraffic,ContinentalTraffic {
 

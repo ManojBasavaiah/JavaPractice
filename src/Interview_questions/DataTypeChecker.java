@@ -1,9 +1,10 @@
+package Interview_questions;
+
 import java.util.Scanner;
 
 public class DataTypeChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter a value: ");
         if (scanner.hasNextInt()) {
             int value = scanner.nextInt();

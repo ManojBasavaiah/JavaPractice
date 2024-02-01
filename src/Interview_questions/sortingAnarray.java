@@ -1,3 +1,7 @@
+package Interview_questions;
+
+import java.util.Arrays;
+
 public class sortingAnarray {
     /**
      * Sorts an array of integers in ascending order using the bubble sort algorithm.
@@ -43,6 +47,11 @@ public class sortingAnarray {
         // Print the sorted array
         for (int i = 0; i < arr.length; i++) {
             System.out.println(arr[i]);
+
         }
+        //best approach
+        int[] arr1 = {-10, 7, 5, 1, 2, 3};
+        Arrays.sort(arr1);
+        System.out.println(Arrays.toString(arr1));
     }
 }

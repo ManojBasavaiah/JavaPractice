@@ -1,3 +1,5 @@
+package udmey;
+
 public class Practice {
     String a = "Manoj";
 

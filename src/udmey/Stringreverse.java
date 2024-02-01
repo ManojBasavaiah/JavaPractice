@@ -1,3 +1,5 @@
+package udmey;
+
 import java.util.Scanner;
 
 public class Stringreverse {

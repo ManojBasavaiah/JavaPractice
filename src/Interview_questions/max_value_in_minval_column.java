@@ -1,7 +1,9 @@
+package Interview_questions;
+
 public class max_value_in_minval_column {
     public static void main(String[] args) {
         // Initialize the 2D array
-        int arr[][] = {{2, 4, 5}, {3, 0, 7}, {1, 2, 9}};
+        int[][] arr = {{2, 4, 5}, {3, 0, 7}, {1, 2, 9}};
 
         // Find the minimum value and its column index
         int min = arr[0][0];

@@ -1,3 +1,5 @@
+package udmey;
+
 public class Stringclass {
 
 	public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class Stringclass {
 		System.out.println(str.concat(" Rahul Shetty").trim());
 
 		// Split str2 by "T" and store the resulting substrings in an array
-		String arr[] = str2.split("T");
+		String[] arr = str2.split("T");
 
 		// Print the first substring
 		System.out.println(arr[0]);
