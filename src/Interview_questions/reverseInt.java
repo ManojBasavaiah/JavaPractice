@@ -11,7 +11,7 @@ public class reverseInt {
         }
         System.out.println("Reverse of int: " + rev);
 // 2nd method
-        long num1 = 123456789;
+        int num1 = 123456789;
         System.out.println(new StringBuffer(String.valueOf(num1)).reverse());
     }
 }

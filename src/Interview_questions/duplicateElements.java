@@ -8,7 +8,7 @@ import java.util.Set;
 public class duplicateElements {
     public static void main(String[] args) {
         //1. compare each element: 0(nxn) worst soln
-        String[] arr = {"apple", "Mango", "Orange", "Pineapple", "apple"};
+        String[] arr = {"apple", "Mango", "Orange", "pineapple", "apple", "pineapple"};
         for (int i = 0; i < arr.length; i++) {
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[i].equals(arr[j])) {

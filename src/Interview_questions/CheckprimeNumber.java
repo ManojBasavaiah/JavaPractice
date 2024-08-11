@@ -8,8 +8,8 @@ public class CheckprimeNumber {
         System.out.println("Enter the number: ");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();//number to be checked
-        int m = 0, f = 0;
-        m = a / 2;
+        int f = 0;
+        int m = a / 2;
         if (a == 0 || a == 1) {
             System.out.println("Not Prime Number");
         } else {

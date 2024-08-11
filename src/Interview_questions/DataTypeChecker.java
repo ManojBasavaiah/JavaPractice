@@ -25,5 +25,6 @@ public class DataTypeChecker {
             System.out.println("Invalid input");
         }
         scanner.close();
+
     }
 }
